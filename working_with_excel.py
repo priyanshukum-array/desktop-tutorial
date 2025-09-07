@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-#kartikay  gay hai 
+#kartikay  gay hai(true baat) 
 st.set_page_config(layout="wide")
 
 file_path = r"C:\Users\priya\OneDrive\Desktop\hack\qwerty.xlsx"
