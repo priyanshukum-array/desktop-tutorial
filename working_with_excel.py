@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-#kartik
+
 st.set_page_config(layout="wide")
 
 file_path = r"C:\Users\priya\OneDrive\Desktop\hack\qwerty.xlsx"
@@ -57,4 +57,5 @@ st.markdown("---")
 if not st.session_state["show_all"]:
     if st.button("Show All"):
         st.session_state["show_all"] = True
+
 
